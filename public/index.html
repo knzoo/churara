@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<!----- ビューポート---------->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>chulala</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--google font--->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<!--fontawesome-->
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<!---jQuery CDN----->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--　ヘッダー　-->
+	<header class="mainheader">
+		<div class="mainheader__logobox">
+            <a href="#" class="mainheader__logobox__link">
+                <img src="images/logo.png" alt="" class="mainheader__logobox__logo">
+            </a>
+        </div>
+		<!-- ハンバーガーナビメニュー　-->
+		<nav class="burgernav">
+			<ul class="burgernav__list">
+				<li class="burgernav__list__item">
+					<div class="burgernav__list__item__box">
+						<p class="burgernav__list__item__title">ENERGY</p>
+						<a class="burgernav__list__link" href="./energy.html">
+							<img src="images/menu-energy.png" alt="" class="burgernav__list__link__img change-bg-orange">
+						</a>
+					</div>
+				</li>
+				<li class="burgernav__list__item">
+					<div class="burgernav__list__item__box">
+						<p class="burgernav__list__item__title">MELLOW</p>
+						<a class="burgernav__list__link" href="./mellow.html">
+							<img src="images/menu-mellow.png" alt="" class="burgernav__list__link__img change-bg-blue">
+						</a>
+					</div>
+				</li>
+				<li class="burgernav__list__item">
+					<div class="burgernav__list__item__box">
+						<p class="burgernav__list__item__title">DREAMY</p>
+						<a class="burgernav__list__link" href="./dreamy.html">
+							<img src="images/menu-dreamy.png" alt="" class="burgernav__list__link__img change-bg-pink">
+						</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<!-- メニュー　-->
+		<button type="bgbutton" class="bgbtn js-bgbtn">
+			<span class="bgbtn-line"></span>
+		</button>
+	</header>
+	<main class="main"　id="scroll">
+		<div class="main__mainbox">
+			<div class="animated pulse">
+				<img src="images/mv-catch.png" alt="" class="main__mainbox__img">
+			</div>
+			<div class="main__mainbox__news sp_none">
+				<p class="main__mainbox__news__title">DEBUT!</p>
+				<div class="main__mainbox__news__textbox">
+					<p class="main__mainbox__news__textbox__date">05.28.FRI</p>
+					<p class="main__mainbox__news__textbox__topic">全国バラエティショップにて
+						<br>販売START！</p>
+				</div>
+				<img src="images/mockup-set01.png" alt="" class="main__mainbox__news__img">
+			</div>
+		</div>
+	</main>
+	<div class="concept sp_none">
+		<img src="images/bg-orange.png" alt="" class="concept__bg-orange">
+		<img src="images/bg-blue-top.png" alt="" class="concept__bg-blue">
+
+		<div class="concept__conceptbox">
+			<div class="concept__conceptbox__titlebox">
+				<h2 class="concept__conceptbox__titlebox__title typ">BRAND CONCEPT</h2>
+			</div>
+			<img src="images/concept-bg.jpg" alt="" class="concept__conceptbox__bgimg">
+			<div class="concept__conceptbox__catchbox">
+				<img src="images/paint-magenta.png" alt="" class="concept__conceptbox__catchbox__paint">
+				<img src="images/concept-main.png" alt="" class="concept__conceptbox__catchbox__mainimg">
+				<div class="concept__conceptbox__catchbox__textbox">
+					<h1 class="concept__conceptbox__catchbox__textbox__catch typ">LIKE JUST GET
+						<br>CHANGED!</h1>
+					<p class="concept__conceptbox__catchbox__textbox__catchjp">ゆびさきから着替える</p>
+				</div>
+			</div>
+			<div class="concept__conceptbox__textbox  fadein">
+				<p class="concept__conceptbox__textbox__text">
+					アナタらしさを表現する方法は
+					<br>ひとつだけじゃない
+					<br>まだ知らないジブンに出会うために
+					<br>
+					<br>まるで毎日を着替えるように
+					<br>もっと気軽に、もっと自由に</p>
+				<img src="images/logo.png" alt="" class="concept__conceptbox__textbox__logo">
+			</div>
+		</div>
+	</div>
+	<div class="concept_sp pc_none">
+		<h2 class="title typ">BRAND CONCEPT</h2>
+		<div class="concept_box">
+			<img src="images/concept-main.png" alt="" class="concept_image">
+			<h2 class="catch">
+				LIKE JUST GET
+				<br>CHANGED!<span>ゆびさきから着替える</span>
+			</h2>
+			<p>
+				アナタらしさを表現する方法は
+				<br>ひとつだけじゃない
+				<br>まだ知らないジブンに出会うために
+				<br>
+				<br>まるで毎日を着替えるように
+				<br>もっと気軽に、もっと自由に
+			</p>
+			<img src="images/logo.png" alt="" class="logo">
+		</div>
+	</div>
+	<div class="products">
+		<div class="products__productsbox">
+			<div class="products__productsbox__titlebox">
+				<h2 class="products__productsbox__titlebox__title typ">PRODUCTS</h2>
+			</div>
+			<img src="images/bg-pink.png" alt="" class="products__productsbox__bg-pink">
+			<img src="images/bg-blue-center.png" alt="" class="products__productsbox__bg-blue-center">
+			<img src="images/bg-blue-bottom.png" alt="" class="products__productsbox__bg-blue-bottom">
+
+			<div class="products__productsbox__energybox slidein-right sp_none">
+				<img src="images/products-image-01.jpg" alt="" class="products__productsbox__energybox__img">
+				<div class="products__productsbox__energybox__contentbox">
+					<div class="products__productsbox__energybox__contentbox__wrapper">
+						<div class="products__productsbox__energybox__contentbox__wrapper__textbox">
+							<p class="products__productsbox__energybox__contentbox__wrapper__textbox__catch">
+								元気なキブンで
+								<br>アナタらしさを
+							</p>
+							<p class="products__productsbox__energybox__contentbox__wrapper__textbox__price">
+								<span class="font-expansion">ENERGY</span>
+								<br>各 <span class="font-expansion">¥350</span>(税別)
+							</p>
+						</div>
+						<img src="images/mockup-set-energy.png" alt="" class="products__productsbox__energybox__contentbox__wrapper__img">
+					</div>
+					<div class="products__productsbox__energybox__contentbox__buttonbox">
+						<a class="products__productsbox__energybox__contentbox__buttonbox__button" href="./energy.html"><span class="buttonchange">詳細はこちら</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="products__productsbox__mellowbox slidein-left sp_none">
+				<div class="products__productsbox__mellowbox__contentbox">
+					<div class="products__productsbox__mellowbox__contentbox__wrapper">
+						<div class="products__productsbox__mellowbox__contentbox__wrapper__textbox">
+							<p class="products__productsbox__mellowbox__contentbox__wrapper__textbox__catch">
+								まだ、知らない
+								<br>オトナなジブン
+							</p>
+							<p class="products__productsbox__mellowbox__contentbox__wrapper__textbox__price">
+								<span class="font-expansion">MELLOW</span>
+								<br>各 <span class="font-expansion">¥350</span>(税別)
+							</p>
+						</div>
+						<img src="images/mockup-set-mellow.png" alt="" class="products__productsbox__mellowbox__contentbox__wrapper__img">
+					</div>
+					<div class="products__productsbox__mellowbox__contentbox__buttonbox">
+						<a class="products__productsbox__mellowbox__contentbox__buttonbox__button" href="./mellow.html"><span class="buttonchange">詳細はこちら</span></a>
+					</div>
+				</div>
+				<img src="images/products-image-02.jpg" alt="" class="products__productsbox__mellowbox__img">
+			</div>
+			<div class="products__productsbox__dreamybox slidein-right sp_none">
+				<img src="images/products-image-03.jpg" alt="" class="products__productsbox__dreamybox__img">
+				<div class="products__productsbox__dreamybox__contentbox">
+					<div class="products__productsbox__dreamybox__contentbox__wrapper">
+						<div class="products__productsbox__dreamybox__contentbox__wrapper__textbox">
+							<p class="products__productsbox__dreamybox__contentbox__wrapper__textbox__catch">
+								新たなミリョクに
+								<br>まるごとチェンジ
+							</p>
+							<p class="products__productsbox__dreamybox__contentbox__wrapper__textbox__price">
+								<span class="font-expansion">DREAMY</span>
+								<br>各 <span class="font-expansion">¥350</span>(税別)
+							</p>
+						</div>
+						<img src="images/mockup-set-dreamy.png" alt="" class="products__productsbox__dreamybox__contentbox__wrapper__img">
+					</div>
+					<div class="products__productsbox__dreamybox__contentbox__buttonbox">
+						<a class="products__productsbox__dreamybox__contentbox__buttonbox__button" href="./dreamy.html"><span class="buttonchange">詳細はこちら</span></a>
+					</div>
+				</div>
+			</div>
+			<!-- sp -->
+			<div class="products_itembox pc_none">
+				<img src="images/products-image-01.jpg" alt="" class="product_image">
+				<div class="product_detail_energy">
+					<div class="detail_wrapper">
+						<div class="text_box">
+							<div>
+								<p>
+									元気なキブンで
+									<br>アナタらしさを
+								</p>
+								<p class="">
+									<span class="font-expansion">ENERGY</span>
+									<br>各 <span class="font-expansion">¥350</span>(税別)
+								</p>
+							</div>
+							<img src="images/mockup-set-energy.png"" alt="">
+						</div>
+						<a class="" href="./energy.html"><span class="buttonchange">詳細はこちら</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="products_itembox pc_none">
+				<img src="images/products-image-02.jpg" alt="" class="product_image">
+				<div class="product_detail_mellow">
+					<div class="detail_wrapper">
+						<div class="text_box">
+							<div>
+								<p>
+									まだ、知らない
+									<br>オトナなジブン
+								</p>
+								<p class="">
+									<span class="font-expansion">MELLOW</span>
+									<br>各 <span class="font-expansion">¥350</span>(税別)
+								</p>
+							</div>
+							<img src="images/mockup-set-mellow.png"" alt="">
+						</div>
+						<a class="" href="./mellow.html"><span class="buttonchange">詳細はこちら</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="products_itembox pc_none">
+				<img src="images/products-image-03.jpg" alt="" class="product_image">
+				<div class="product_detail_dreamy">
+					<div class="detail_wrapper">
+						<div class="text_box">
+							<div>
+								<p>
+									新たなミリョクに
+									<br>まるごとチェンジ
+								</p>
+								<p class="">
+									<span class="font-expansion">DREAMY</span>
+									<br>各 <span class="font-expansion">¥350</span>(税別)
+								</p>
+							</div>
+							<img src="images/mockup-set-dreamy.png"" alt="">
+						</div>
+						<a class="" href="./dreamy.html"><span class="buttonchange">詳細はこちら</span></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="news">
+		<img src="images/bg-orange.png" alt="" class="news__bg-orange">
+
+		<div class="news__newsbox">
+			<div class="news__newsbox__titlebox">
+				<h2 class="news__newsbox__titlebox__title typ">NEWS</h2>
+			</div>
+			<div class="news__newsbox__contentbox fadein">
+				<ul class="news__newsbox__contentbox__newslist">
+					<li class="news__newsbox__contentbox__newslist__item">
+						<p class="news__newsbox__contentbox__newslist__item__date">2021.06.15</p>
+						<p class="news__newsbox__contentbox__newslist__item__topic">
+							【全国販売スタート！】
+							　<br>全国のバラエティショップで販売開始（一部取り扱いのない店舗もございます）
+						</p>
+					</li>
+					<li class="news__newsbox__contentbox__newslist__item">
+						<p class="news__newsbox__contentbox__newslist__item__date">2021.05.28</p>
+						<p class="news__newsbox__contentbox__newslist__item__topic">
+							【一部バラエティショップにて販売スタート】
+							<br>全国のバラエティショップで販売開始（一部取り扱いのない店舗もございます）
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="news__newsbox__buttonbox">
+				<a class="news__newsbox__buttonbox__button" href="#"><span class="buttonchange">MORE</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="gallery">
+		<img src="images/bg-blue-gallery.png" alt="" class="gallery__bg-blue">
+		<div class="gallery__gallerybox">
+			<div class="gallery__gallerybox__top">
+				<div class="gallery__gallerybox__top__titlebox">
+					<h2 class="gallery__gallerybox__top__titlebox__title typ">GALLERY</h2>
+				</div>
+				<img src="images/gallery-mv.jpg" alt="" class="gallery__gallerybox__top__galleryimg slidein-left">
+			</div>
+
+			<ul class="gallery__gallerybox__itembox">
+				<li class="gallery__gallerybox__itembox__item"><img src="images/gallery01.jpg" alt="" class="gallery__gallerybox__itembox__item__img fadein-gal"></li>
+				<li class="gallery__gallerybox__itembox__item"><img src="images/gallery02.jpg" alt="" class="gallery__gallerybox__itembox__item__img fadein-gal"></li>
+				<li class="gallery__gallerybox__itembox__item"><img src="images/gallery03.jpg" alt="" class="gallery__gallerybox__itembox__item__img fadein-gal"></li>
+				<li class="gallery__gallerybox__itembox__item"><img src="images/gallery04.jpg" alt="" class="gallery__gallerybox__itembox__item__img fadein-gal"></li>
+				<li class="gallery__gallerybox__itembox__item"><img src="images/gallery05.jpg" alt="" class="gallery__gallerybox__itembox__item__img fadein-gal"></li>
+				<li class="gallery__gallerybox__itembox__item"><img src="images/gallery06.jpg" alt="" class="gallery__gallerybox__itembox__item__img fadein-gal"></li>
+			</ul>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer__footerbox">
+			<div class="footer__footerbox__items">
+				<div class="footer__footerbox__items__sns">
+					<p class="footer__footerbox__items__sns__line"><a href="#" class="footer__footerbox__items__sns__line__link"><i class="fab fa-line fa-3x"></i></a></p>
+					<p class="footer__footerbox__items__sns__twitter"><a href="#" class="footer__footerbox__items__sns__twitter__link"><i class="fab fa-twitter fa-3x"></i></a></p>
+					<p class="footer__footerbox__items__sns__instagram"><a href="#" class="footer__footerbox__items__sns__instagram__link"><i class="fab fa-instagram fa-3x"></i></a></p>
+				</div>
+				<div class="footer__footerbox__items__logobox">
+					<a href="#" class="footer__footerbox__items__logobox__link">
+						<img src="images/logo-white.png" alt="" class="footer__footerbox__items__logobox__logo">
+					</a>
+				</div>
+			</div>
+			<ul class="footer__footerbox__list">
+				<li class="footer__footerbox__list__item"><a href="#" class="footer__footerbox__list__item__link">会社概要</a></li>
+				<li class="footer__footerbox__list__item"><a href="#" class="footer__footerbox__list__item__link">特定商取引法に基づく表記</a></li>
+				<li class="footer__footerbox__list__item"><a href="#" class="footer__footerbox__list__item__link"><span class="footer-font-expansion">CONTACT</span></a></li>
+				<li class="footer__footerbox__list__item"><a href="#" class="footer__footerbox__list__item__link"><span class="footer-font-expansion">PRIVACY POLICY</span></a></li>
+			</ul>
+		</div>
+	</footer>
+	<!---jQueryのスクリプト---->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<!-- inview JS -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
